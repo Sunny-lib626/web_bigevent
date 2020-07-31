@@ -28,7 +28,7 @@ form.verify({
 
 //监听注册表单的提交数据
 $('#form-reg').on('submit',function (e) {
-    //组织默认提交事件
+    //阻止默认提交事件
     e.preventDefault();
     //发起POST请求
     var data = {
